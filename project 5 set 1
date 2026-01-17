@@ -1,0 +1,21 @@
+
+student_marks = {
+    "Arun": 85,
+    "Priya": 90,
+    "Kumar": 78,
+    "Anitha": 88,
+    "Rahul": 92,
+    "Divya": 81,
+    "Suresh": 75,
+    "Meena": 89,
+    "Vijay": 84,
+    "Sneha": 91
+}
+
+name = input("Enter student name: ")
+
+
+if name in student_marks:
+    print("Marks of", name, "is:", student_marks[name])
+else:
+    print("Student not found.")
